@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* use for all */
+.max {
+  width: 1140px;
+  margin: 0 auto;
+}
+.text-orange {
+  color: #e95a08;
+}
+.all-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.all-title h1 {
+  font-size: 50px;
+}
+/* nav start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 39px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.always {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.always-text {
+  width: 550px;
+  margin-top: 40px;
+}
+.always-text h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.always-text p {
+  margin-top: 30px;
+  color: #000000;
+}
+/* header end */
+
+/* our section */
+.our-card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+}
+.our-card {
+  margin-top: 20px;
+  text-align: center;
+}
+.our-card p {
+  font-size: 22px;
+}
+.our-card h5 {
+  font-size: 22px;
+  margin-top: 5px;
+}
+.our-card button {
+  width: 270px;
+  height: 50px;
+  background-color: #e95a08;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+}
+/* end our section */
+
+/* latest section */
+.latest-img {
+  display: grid;
+  grid-template-columns: 367px 753px;
+  margin: auto;
+  gap: 20px;
+  height: 387px;
+  margin-top: 40px;
+
+}
+.latest-img-1 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.img-1,
+.img-2  {
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.img-1 a ,.img-2 a{
+    color: white;
+}
+.img-1 h1 ,.img-2 h1{
+    font-size:20px ;
+}
+.img-1 {
+  background-image: url("./assets/deal-bloom.png");
+}
+.img-2 {
+  background-image: url("./assets/deal-ana.png");
+}
+.latest-img-2 {
+  background-image: url("./assets/deal-zabo.png");
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  border-radius: 14px;
+}
+.latest-img-2 h1 {
+  font-size: 40px;
+}
+.latest-img-2 a {
+  font-size: 28px;
+  color: white;
+}
