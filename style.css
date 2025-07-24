@@ -178,3 +178,15 @@ nav ul li a {
 
 
 /* footer */
+.card-footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 50px;
+  margin-top: 50px;
+  height: 348px;
+}
+.footer-card-1{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 0px;
+}
