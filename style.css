@@ -140,3 +140,41 @@ nav ul li a {
   font-size: 28px;
   color: white;
 }
+/* join section start */
+.join-title{
+  margin-top: 50px;
+  background-image: url("./assets/news-letter-bg.png");
+  width: 100%;
+  height: 533px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.join-title h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.input-join input{
+  width: 644px;
+  height: 50px;
+  border: none;
+  margin: 0;
+  border-right: none;
+}
+.input-join button{
+   width: 186px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight:600;
+  background-color: #e95a08;
+ margin: 0;
+ 
+}
+
+
+/* footer */
